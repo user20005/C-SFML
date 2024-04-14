@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet_Arkanoid" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet_Arkanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files/CodeBlocks/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-audio-d.a" />
+					<Add library="C:/Program Files/CodeBlocks/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-graphics-d.a" />
+					<Add library="C:/Program Files/CodeBlocks/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-window-d.a" />
+					<Add library="C:/Program Files/CodeBlocks/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-system-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet_Arkanoid" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/lib/libsfml-audio.a" />
+					<Add library="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/lib/libsfml-graphics.a" />
+					<Add library="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/lib/libsfml-window.a" />
+					<Add library="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/lib/libsfml-system.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="D:/SFML-2.5.1-SJLJ/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="Arkanoid.cpp" />
+		<Unit filename="Mur_1.cpp" />
+		<Unit filename="Mur_1.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
