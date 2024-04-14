@@ -1,1 +1,1 @@
-# C-SFML
+# C++/SFML
